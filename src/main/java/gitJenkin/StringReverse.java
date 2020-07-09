@@ -2,10 +2,13 @@ package gitJenkin;
 
 import java.io.IOException;
 
+import org.testng.annotations.Test;
+
 public class StringReverse extends Util {
 	
-	
-	public static void main(String args[]) throws IOException
+	@Test
+	public void stringReverse() throws IOException
+//	public static void main(String args[]) throws IOException
 	{
 		Object [] words= readData(1);
 		for (int i=0;i<=words.length-1;i++)
