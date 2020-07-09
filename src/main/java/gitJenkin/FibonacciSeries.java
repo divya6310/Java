@@ -8,20 +8,22 @@ import org.testng.annotations.Test;
 
 public class FibonacciSeries extends Util    {
 	
-//	@Test
-//public void fiboevaluation() throws IOException
-	public static void main(String args[])  throws IOException 
+	@Test
+	public void fiboevaluation() throws IOException
+	//public static void main(String args[])  throws IOException 
 {
-		int[] val=readData(0);
+		Object[] val=readData(0);
 		
 		//Util.fis.close();
 		System.out.println(val.length);
-	int j=0;
-	int k=1;
+	
 	for(int  s=0;s<val.length;s++)
 	{
 		System.out.println(val[s]);
-	for(int i=1;i<=val[s];i++)
+		int j=0;
+		int k=1;
+		
+	for(int i=1; i<=Integer.valueOf((String) val[s]);i++)
 	{
 		if(i==1)
 		{
