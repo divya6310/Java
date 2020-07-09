@@ -18,7 +18,7 @@ public class StringReverse extends Util {
 				//System.out.println(sen.length);
 			res =res+sen[j]+" ";	
 			}
-			System.out.println(res);
+			//System.out.println(res);
 			sheet.getRow(i+1).createCell(1).setCellValue("Pass");
 			sheet.getRow(i+1).createCell(2).setCellValue(res);
 			
