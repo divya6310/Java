@@ -15,16 +15,16 @@ public class Util {
 	static XSSFSheet sheet;
 	static FileOutputStream fos;
 	
-	public static int[] readData(int sheetNo) throws IOException
+	public static Object[] readData(int sheetNo) throws IOException
 	{
 		 fis = new FileInputStream("./Data/Jenkin.xlsx");
 		 book = new XSSFWorkbook(fis);
 		 sheet =book.getSheetAt(sheetNo);
 		int row=sheet.getLastRowNum();
-		int[] n = new int[row];
+		Object[] n = new Object[row];
 		for(int i=0;i<row;i++)
 		{
-			 n[i]=(int) sheet.getRow(i+1).getCell(0).getNumericCellValue();
+			 n[i]= sheet.getRow(i+1).getCell(0).getStringCellValue();
 			 System.out.println(n[i]);
 			
 		}
