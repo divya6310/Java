@@ -5,10 +5,13 @@ import java.util.Iterator;
 import java.util.Map;
 import java.util.Map.Entry;
 
-public class IterateWhile extends CountWordsHashMap{
+import org.testng.annotations.Test;
 
-	public static void main(String[] args) {
-		
+public class IterateWhile {
+
+	//public static void main(String[] args) {
+	@Test	
+	public void iteratorWhile() {
 		HashMap<Integer,String> map=new HashMap<Integer,String>();
 		map.put(1,"Selenium");
 		map.put(2, "TestNG");
