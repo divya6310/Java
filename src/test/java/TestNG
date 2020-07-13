@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="gitJenkin.StringReverse"/>
+      <class name="gitJenkin.FibonacciSeries"/>
+      <class name="gitJenkin.CountWordsHashMap"/>
+      <class name="gitJenkin.IterateWhile"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
