@@ -2,30 +2,30 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-07-13T21:49:45 IST" name="Suite" finished-at="2020-07-13T21:49:48 IST" duration-ms="3187">
+  <suite started-at="2020-07-16T19:33:36 IST" name="Suite" finished-at="2020-07-16T19:33:38 IST" duration-ms="2001">
     <groups>
     </groups>
-    <test started-at="2020-07-13T21:49:45 IST" name="Test" finished-at="2020-07-13T21:49:48 IST" duration-ms="3187">
+    <test started-at="2020-07-16T19:33:36 IST" name="Test" finished-at="2020-07-16T19:33:38 IST" duration-ms="2001">
       <class name="gitJenkin.CountWordsHashMap">
-        <test-method signature="countWordsHashMap()[pri:0, instance:gitJenkin.CountWordsHashMap@6f45df59]" started-at="2020-07-13T21:49:48 IST" name="countWordsHashMap" finished-at="2020-07-13T21:49:48 IST" duration-ms="324" status="PASS">
+        <test-method signature="countWordsHashMap()[pri:0, instance:gitJenkin.CountWordsHashMap@6f45df59]" started-at="2020-07-16T19:33:37 IST" name="countWordsHashMap" finished-at="2020-07-16T19:33:38 IST" duration-ms="160" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- countWordsHashMap -->
       </class> <!-- gitJenkin.CountWordsHashMap -->
       <class name="gitJenkin.IterateWhile">
-        <test-method signature="iteratorWhile()[pri:0, instance:gitJenkin.IterateWhile@38e79ae3]" started-at="2020-07-13T21:49:48 IST" name="iteratorWhile" finished-at="2020-07-13T21:49:48 IST" duration-ms="11" status="PASS">
+        <test-method signature="iteratorWhile()[pri:0, instance:gitJenkin.IterateWhile@38e79ae3]" started-at="2020-07-16T19:33:38 IST" name="iteratorWhile" finished-at="2020-07-16T19:33:38 IST" duration-ms="23" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- iteratorWhile -->
       </class> <!-- gitJenkin.IterateWhile -->
       <class name="gitJenkin.StringReverse">
-        <test-method signature="stringReverse()[pri:0, instance:gitJenkin.StringReverse@5c90e579]" started-at="2020-07-13T21:49:45 IST" name="stringReverse" finished-at="2020-07-13T21:49:48 IST" duration-ms="2388" status="PASS">
+        <test-method signature="stringReverse()[pri:0, instance:gitJenkin.StringReverse@5c90e579]" started-at="2020-07-16T19:33:36 IST" name="stringReverse" finished-at="2020-07-16T19:33:37 IST" duration-ms="1463" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stringReverse -->
       </class> <!-- gitJenkin.StringReverse -->
       <class name="gitJenkin.FibonacciSeries">
-        <test-method signature="fiboevaluation()[pri:0, instance:gitJenkin.FibonacciSeries@58ea606c]" started-at="2020-07-13T21:49:48 IST" name="fiboevaluation" finished-at="2020-07-13T21:49:48 IST" duration-ms="306" status="PASS">
+        <test-method signature="fiboevaluation()[pri:0, instance:gitJenkin.FibonacciSeries@58ea606c]" started-at="2020-07-16T19:33:37 IST" name="fiboevaluation" finished-at="2020-07-16T19:33:37 IST" duration-ms="247" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fiboevaluation -->
